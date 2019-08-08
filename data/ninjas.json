@@ -1,0 +1,36 @@
+[{
+    "name": "Yoshi",
+    "belt": "green",
+    "rate": 50,
+    "available": true,
+    "thumb": "../img/yoshi.jpeg"
+  },
+  {
+    "name": "Cristal",
+    "belt": "yellow",
+    "rate": 30,
+    "available": true,
+    "thumb": "../img/cristal.jpeg"
+  },
+  {
+    "name": "Ryu",
+    "belt": "Orange",
+    "rate": 10,
+    "available": true,
+    "thumb": "../img/ryu.jpg"
+  },
+  {
+    "name": "Juan",
+    "belt": "black",
+    "rate": 1000,
+    "available": true,
+    "thumb": "../img/juan.jpeg"
+  },
+  {
+    "name": "David",
+    "belt": "black",
+    "rate": 600,
+    "available": true,
+    "thumb": ""
+  }
+]

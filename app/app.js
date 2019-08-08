@@ -31,7 +31,11 @@ myNinjaApp.config([
 myNinjaApp.directive('randomNinja', [
   function() {
     return {
+<<<<<<< HEAD
       restrict: 'E', //E: element, A: Attribute
+=======
+      restrict: 'E', //E: element, A: Atribute
+>>>>>>> afcc4bb8edad0c9e3aba93ac1d5fc5ee1d56739b
       scope: {
         ninjas: '=', // '=' means its binding the data
         title: '='

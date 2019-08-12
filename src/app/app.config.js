@@ -1,4 +1,4 @@
-export default function($routeProvider, $locationProvider) {
+const appConfig = function($routeProvider, $locationProvider) {
   $locationProvider.html5Mode(true);
   $routeProvider
     .when('/', {
@@ -21,3 +21,5 @@ export default function($routeProvider, $locationProvider) {
       redirectTo: '/'
     });
 }
+
+export default ['$routeProvider', '$locationProvider', appConfig]

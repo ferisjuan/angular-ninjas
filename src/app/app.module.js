@@ -9,7 +9,7 @@ import ContactController from './app.contact.controller.js';
 
 export default angular
   .module('app', ['ngRoute', 'ngAnimate'])
-  .config(['$routeProvider', '$locationProvider', appConfig])
-  .directive('randomNinja', [randomNinja])
+  .config(appConfig)
   .controller('DirectoryController', DirectoryController)
+  .directive('randomNinja', randomNinja) // must follow the controller it takes data from
   .controller('ContactController', ContactController);

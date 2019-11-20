@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/ferisjuan/angular-ninjas#readme",
   "dependencies": {
-    "angular": "^1.7.8",
+    "angular": "^1.7.9",
     "angular-animate": "^1.7.8",
     "angular-route": "^1.7.8"
   },
